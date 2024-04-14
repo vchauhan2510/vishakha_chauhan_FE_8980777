@@ -17,6 +17,9 @@
 		CD09D4532BCB70D6006F5512 /* vishakha_chauhan_FE_8980777Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09D4522BCB70D6006F5512 /* vishakha_chauhan_FE_8980777Tests.swift */; };
 		CD09D45D2BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09D45C2BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITests.swift */; };
 		CD09D45F2BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09D45E2BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITestsLaunchTests.swift */; };
+		CD09D46C2BCB7CC5006F5512 /* UiDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09D46B2BCB7CC5006F5512 /* UiDirectionViewController.swift */; };
+		CD09D46E2BCB7D40006F5512 /* weatherUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09D46D2BCB7D40006F5512 /* weatherUIViewController.swift */; };
+		CD09D4702BCB8998006F5512 /* mypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09D46F2BCB8998006F5512 /* mypageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CD09D4582BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vishakha_chauhan_FE_8980777UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD09D45C2BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vishakha_chauhan_FE_8980777UITests.swift; sourceTree = "<group>"; };
 		CD09D45E2BCB70D6006F5512 /* vishakha_chauhan_FE_8980777UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vishakha_chauhan_FE_8980777UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD09D46B2BCB7CC5006F5512 /* UiDirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiDirectionViewController.swift; sourceTree = "<group>"; };
+		CD09D46D2BCB7D40006F5512 /* weatherUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUIViewController.swift; sourceTree = "<group>"; };
+		CD09D46F2BCB8998006F5512 /* mypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				CD09D43A2BCB70D5006F5512 /* SceneDelegate.swift */,
 				CD09D43C2BCB70D5006F5512 /* ViewController.swift */,
 				CD09D43E2BCB70D5006F5512 /* Main.storyboard */,
+				CD09D46F2BCB8998006F5512 /* mypageViewController.swift */,
+				CD09D46B2BCB7CC5006F5512 /* UiDirectionViewController.swift */,
+				CD09D46D2BCB7D40006F5512 /* weatherUIViewController.swift */,
 				CD09D4442BCB70D6006F5512 /* Assets.xcassets */,
 				CD09D4462BCB70D6006F5512 /* LaunchScreen.storyboard */,
 				CD09D4492BCB70D6006F5512 /* Info.plist */,
@@ -262,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD09D43D2BCB70D5006F5512 /* ViewController.swift in Sources */,
+				CD09D4702BCB8998006F5512 /* mypageViewController.swift in Sources */,
+				CD09D46C2BCB7CC5006F5512 /* UiDirectionViewController.swift in Sources */,
 				CD09D4432BCB70D5006F5512 /* vishakha_chauhan_FE_8980777.xcdatamodeld in Sources */,
+				CD09D46E2BCB7D40006F5512 /* weatherUIViewController.swift in Sources */,
 				CD09D4392BCB70D5006F5512 /* AppDelegate.swift in Sources */,
 				CD09D43B2BCB70D5006F5512 /* SceneDelegate.swift in Sources */,
 			);
